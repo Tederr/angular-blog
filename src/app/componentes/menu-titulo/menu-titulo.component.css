@@ -5,9 +5,11 @@
   font-family: 'segoe ui';
   display: flex;
   justify-content: center;
+  color: grey;
 }
 
 .container__menu-titulo > hr{
   margin-top: 20px;
   margin-bottom: 5px;
+  border: 2px solid gold;
 }

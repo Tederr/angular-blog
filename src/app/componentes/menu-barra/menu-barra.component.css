@@ -1,0 +1,19 @@
+
+
+.container__menu-barra > ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.container__menu-barra > ul > li{
+  margin-right: 20px;
+  list-style: none;
+}
+
+.container__menu-barra > ul > li > a{
+  color: gold;
+}
+
+.container__menu-barra > ul > li > span{
+  color: grey;
+}

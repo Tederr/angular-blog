@@ -1,0 +1,30 @@
+.container__card-tipicos{
+  width: 700px;
+}
+
+.container__card-tipicos-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.card-tipicos__foto > img{
+  width: 200px;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+.card-tipicos__titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-tipicos__titulo > h1 > a{
+  color: goldenrod;
+}
+
+hr{
+  margin-top: 13px;
+  margin-bottom: 13px;
+  border: 1px solid whitesmoke;
+}
