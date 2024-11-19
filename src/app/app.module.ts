@@ -8,6 +8,7 @@ import { MenuTituloComponent } from './componentes/menu-titulo/menu-titulo.compo
 import { CardCentralComponent } from './componentes/card-central/card-central.component';
 import { CardTipicosComponent } from './componentes/card-tipicos/card-tipicos.component';
 import { HomeComponent } from './paginas/home/home.component';
+import { ConteudosComponent } from './paginas/conteudos/conteudos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './paginas/home/home.component';
     MenuTituloComponent,
     CardCentralComponent,
     CardTipicosComponent,
-    HomeComponent
+    HomeComponent,
+    ConteudosComponent
   ],
   imports: [
     BrowserModule,

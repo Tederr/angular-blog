@@ -4,12 +4,12 @@
   </div>
   <div class="card-central__titulo">
     <h1>
-      <a href="#">{{ cardtitulo }}</a>
+      <a [routerLink]="['conteudos', id]">{{ cardtitulo }}</a>
     </h1>
   </div>
   <div class="card-central__descricao">
     <p>
-      <a href="#">{{ cardDescricao }}</a>
+      <a [routerLink]="['conteudos', id]">{{ cardDescricao }}</a>
     </p>
   </div>
 </div>

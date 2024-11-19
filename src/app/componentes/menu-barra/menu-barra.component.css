@@ -1,5 +1,5 @@
 
-
+/*
 .container__menu-barra > ul{
   display: flex;
   flex-direction: row;
@@ -16,4 +16,62 @@
 
 .container__menu-barra > ul > li > span{
   color: grey;
+} */
+
+header{
+  background-color: rgb(161, 161, 161);
+  box-shadow: 0px 3px 10px #464646;
+}
+
+.nav__barra{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6rem;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo > a{
+  margin-left: 10px;
+}
+
+.logo > a > h3{
+  color: white;
+}
+
+.lista-nav{
+  display: flex;
+  align-items: center;
+}
+
+.lista-nav > ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.lista-link{
+  margin: 0 20px;
+}
+
+.link{
+  color: white;
+  font-size: 1.20rem;
+  font-weight: 400;
+}
+
+.menu__botao > button{
+  border: none;
+  background-color: gold;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.menu__botao > button > a{
+  color: white;
+  font-weight: 500;
 }
